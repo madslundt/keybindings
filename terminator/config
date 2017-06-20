@@ -1,0 +1,24 @@
+[global_config]
+  title_hide_sizetext = True
+[keybindings]
+  go_next = <Primary>Tab
+  go_prev = <Primary><Shift>Tab
+  new_terminator = <Alt><Super>t
+  new_window = <Alt><Super>t
+  resize_down = <Primary><Shift>Down
+  resize_up = <Primary><Shift>Up
+  split_horiz = <Primary><Alt>Down
+  split_vert = <Primary><Alt>Right
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
