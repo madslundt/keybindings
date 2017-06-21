@@ -1,8 +1,5 @@
 {
-    "usageCount": 31, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "k", 
+    "usageCount": 0, 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -11,21 +8,16 @@
         "backspace": true, 
         "triggerInside": false
     }, 
+    "modes": [], 
+    "title": "page+up+down", 
     "hotkey": {
-        "hotKey": "k", 
-        "modifiers": [
-            "<alt>", 
-            "<hyper>"
-        ]
+        "hotKey": null, 
+        "modifiers": []
     }, 
-    "modes": [
-        3
-    ], 
-    "showInTrayMenu": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "script", 
-    "store": {}
+    "type": "folder", 
+    "showInTrayMenu": false
 }

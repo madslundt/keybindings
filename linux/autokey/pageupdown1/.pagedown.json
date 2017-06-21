@@ -1,8 +1,8 @@
 {
-    "usageCount": 31, 
+    "usageCount": 2, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "k", 
+    "description": "pagedown", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -14,8 +14,7 @@
     "hotkey": {
         "hotKey": "k", 
         "modifiers": [
-            "<alt>", 
-            "<hyper>"
+            "<alt>"
         ]
     }, 
     "modes": [

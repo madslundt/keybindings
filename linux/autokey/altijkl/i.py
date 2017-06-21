@@ -1,1 +1,1 @@
-keyboard.send_keys("<alt>+<up>")
+keyboard.send_keys("<ctrl>+<up>")

@@ -1,5 +1,5 @@
 {
-    "usageCount": 2, 
+    "usageCount": 3, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "i", 
@@ -12,8 +12,11 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\uff7e", 
-        "modifiers": []
+        "hotKey": "i", 
+        "modifiers": [
+            "<alt>", 
+            "<hyper>"
+        ]
     }, 
     "modes": [
         3
