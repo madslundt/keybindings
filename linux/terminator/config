@@ -1,4 +1,8 @@
 [global_config]
+  borderless = True
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  tab_position = hidden
   title_hide_sizetext = True
 [keybindings]
   go_next = <Primary>Tab
@@ -17,8 +21,14 @@
       type = Terminal
     [[[window0]]]
       parent = ""
+      size = 960, 2160
       type = Window
+      position = 960:0
 [plugins]
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
+    font = Source Code Pro 12
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    use_system_font = False
