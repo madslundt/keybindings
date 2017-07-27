@@ -7,10 +7,26 @@ Key bindings
 
 At first caps lock has to be changed to function as the **hyper** key. This can be done with **Gnome Tweak Tool**.
 
+| Shortcut                         | Output                           |
+| -------------------------------- | -------------------------------- |
+| CAPSLOCK + { i, j, k, l }        | { Up, Left, Down, Right }        |
+| CAPSLOCK + CTRL + { i, j, k, l } | ALT + { Up, Left, Down, Right }  |
+| CAPSLOCK + ALT + { i, j, k, l }  | CTRL + { Up, Left, Down, Right } |
+| CAPSLOCK + { u, o }              | { Home, End }                    |
+| ALT + { i, k }                   | { PageUp, PageDown }             |
+
 Move the scripts to the directory `~/.config/autokey/data/`.
 
 ## Terminator
 Terminator is used as a terminal and scripts can be seen [here](linux/terminator).
+
+| Shortcut                                | Output                                                         |
+| --------------------------------------- | -------------------------------------------------------------- |
+| CAPSLOCK + CTRL + Alt { k, l }          | Create new tab to the { bottom, right }                        |
+| CAPSLOCK + CTRL { i, j, k, l }          | Focus the tab to the { top, left, bottom, right }              |
+| CAPSLOCK + ALT + SHIFT + { i, j, k, l } | Increase/Decrease tab size to the { top, left, bottom, right } |
+| CTRL + Shift + w                        | Close  tab                                                     |
+| ALT + { i, k }                          | { PageUp, PageDown }                                           |
 
 Move the script to the directory `~/.config/terminator/`.
 
@@ -24,6 +40,11 @@ Move the script to the directory `~/.config/tilda/`.
 ## Libinput
 Libinput is used for touchpad gestures. The scripts can be seen [here](linux/libinput).
 
+| Gesture                    | Output                      |
+| -------------------------- | --------------------------- |
+| 3 finger swipe left        | alt+left (browser back)     |
+| 3 finger swipe right       | alt+right (browser forward) |I
+
 Move the script to the directory `~/.config/`.
 
 *This should work next time you log out of your computer.*
@@ -32,6 +53,12 @@ Move the script to the directory `~/.config/`.
 
 ## AutoHotKey
 [AutoHotKey](https://autohotkey.com) has been used for Windows. The scripts can be seen [here](windows/autohotkey).
+
+| Shortcut                         | Output                           |
+| -------------------------------- | -------------------------------- |
+| CAPSLOCK + { i, j, k, l }        | { Up, Left, Down, Right }        |
+| CAPSLOCK + { u, o }              | { Home, End }                    |
+| ALT + { i, k }                   | { PageUp, PageDown }             |
 
 ### Automatically start up
  1. Find the script file, select it, and press Control-C.
