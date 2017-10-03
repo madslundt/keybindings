@@ -26,6 +26,8 @@ Terminator is used as a terminal and scripts can be seen [here](linux/terminator
 | CAPSLOCK + CTRL { i, j, k, l }          | Focus the tab to the { top, left, bottom, right }              |
 | CAPSLOCK + ALT + SHIFT + { i, j, k, l } | Increase/Decrease tab size to the { top, left, bottom, right } |
 | CTRL + Shift + w                        | Close  tab                                                     |
+| CTRL + Shift + c                        | Copy text                                                      |
+| CTRL + Shift + v                        | Paste text                                                     |
 | ALT + { i, k }                          | { PageUp, PageDown }                                           |
 
 Move the script to the directory `~/.config/terminator/`.
@@ -57,6 +59,8 @@ Move the script to the directory `~/.config/`.
 | Shortcut                         | Output                           |
 | -------------------------------- | -------------------------------- |
 | CAPSLOCK + { i, j, k, l }        | { Up, Left, Down, Right }        |
+| CAPSLOCK + ALT + { i, j, k, l }  | CTRL + { Up, Left, Down, Right } |
+| CAPSLOCK + CTRL + { i, j, k, l } | ALT + { Up, Left, Down, Right }  |
 | CAPSLOCK + { u, o }              | { Home, End }                    |
 | ALT + { i, k }                   | { PageUp, PageDown }             |
 
@@ -64,3 +68,16 @@ Move the script to the directory `~/.config/`.
  1. Find the script file, select it, and press Control-C.
  2. Start **Run** and write `shell:startup`.
  3. Right click and choose **Paste Shortcut**. The shortcut to the script should now be in the Startup folder.
+ 
+ If you need to run it is administrator either run the scripts as administrator or run Command Prompt as administrator and run the scripts.
+ 
+ ## CMDer
+ 
+| Shortcut                                | Output                                                         |
+| --------------------------------------- | -------------------------------------------------------------- |
+| CAPSLOCK + CTRL + Alt { k, l }          | Create new tab to the { bottom, right }                        |
+| CAPSLOCK + CTRL { i, j, k, l }          | Focus the tab to the { top, left, bottom, right }              |
+| CTRL + Shift + w                        | Close  tab                                                     |
+| CTRL + Shift + c                        | Copy text                                                      |
+| CTRL + Shift + v                        | Paste text                                                     |
+| ALT + { i, k }                          | { PageUp, PageDown }                                           |
