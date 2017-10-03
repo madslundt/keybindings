@@ -1,4 +1,4 @@
-﻿#NoTrayIcon
+#NoTrayIcon
 
 SetCapsLockState, AlwaysOff
 
