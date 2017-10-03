@@ -58,7 +58,7 @@ Move the script to the directory `~/.config/`.
 # Windows
 
 ## AutoHotKey
-[AutoHotKey](https://autohotkey.com) has been used for Windows. The scripts can be seen [here](windows/autohotkey).
+[AutoHotKey](https://autohotkey.com) has been used for Windows and needs to be installed. The scripts can be seen [here](windows/autohotkey).
 
 | Shortcut                         | Output                           |
 | -------------------------------- | -------------------------------- |
