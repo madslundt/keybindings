@@ -2,8 +2,8 @@ My preferred key bindings for both Linux and Windows.
 
 Remaps arrow keys to { i, j, k, l } and extra stuff. Make use of caps lock
 
-[For Linux](#Linux) and 
-[For Windows](#Windows)
+[For Linux](#linux) and 
+[For Windows](#windows)
 
 # Linux
 ## AutoKey
