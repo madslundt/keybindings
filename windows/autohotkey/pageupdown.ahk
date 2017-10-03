@@ -1,2 +1,4 @@
-﻿!i:: send, {PgUp}
+#NoTrayIcon
+
+!i:: send, {PgUp}
 !k:: send, {PgDn}
