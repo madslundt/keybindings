@@ -2,7 +2,7 @@ My preferred key bindings for both Linux and Windows.
 
 Remap arrow keys to { i, j, k, l } and extra stuff. Make use of caps lock.
 
-[For Linux](#linux) and 
+[For Linux](#linux) and
 [For Windows](#windows)
 
 # Linux
@@ -67,16 +67,17 @@ Move the script to the directory `~/.config/`.
 | CAPSLOCK + CTRL + { i, j, k, l } | ALT + { Up, Left, Down, Right }  |
 | CAPSLOCK + { u, o }              | { Home, End }                    |
 | ALT + { i, k }                   | { PageUp, PageDown }             |
+| CAPSLOCK + { y, h }              | { PageUp, PageDown }             |
 
 ### Automatically start up
  1. Find the script file, select it, and press Control-C.
  2. Start **Run** and write `shell:startup`.
  3. Right click and choose **Paste Shortcut**. The shortcut to the script should now be in the Startup folder.
- 
+
  If you need to run it is administrator either run the scripts as administrator or run Command Prompt as administrator and run the scripts.
- 
+
  ## CMDer
- 
+
 | Shortcut                                | Output                                                         |
 | --------------------------------------- | -------------------------------------------------------------- |
 | CAPSLOCK + CTRL + Alt { k, l }          | Create new tab to the { bottom, right }                        |
