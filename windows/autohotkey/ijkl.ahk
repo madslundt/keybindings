@@ -115,3 +115,6 @@ else if GetKeyState("Alt", "D")
 else
     Send {End}
 return
+
+
+return
