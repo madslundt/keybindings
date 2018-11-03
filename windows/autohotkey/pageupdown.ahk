@@ -2,13 +2,8 @@
 
 SetCapsLockState, AlwaysOff
 
-CapsLock & y::
-    Send {PgUp}
-return
-
-CapsLock & h::
-    Send {PgDn}
-return
+CapsLock & y::Send {PgUp}
+CapsLock & h::Send {PgDn}
 
 !i:: send, {PgUp}
 !k:: send, {PgDn}
