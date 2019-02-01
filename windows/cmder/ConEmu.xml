@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2017-07-27 11:12:16" build="161206">
+		<key name=".Vanilla" modified="2019-02-02 00:27:04" build="190108">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -9,22 +9,22 @@
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
-			<value name="ColorTable00" type="dword" data="00362b00"/>
-			<value name="ColorTable01" type="dword" data="00423607"/>
-			<value name="ColorTable02" type="dword" data="0098a12a"/>
-			<value name="ColorTable03" type="dword" data="00837b65"/>
-			<value name="ColorTable04" type="dword" data="00164bcb"/>
-			<value name="ColorTable05" type="dword" data="00756e58"/>
-			<value name="ColorTable06" type="dword" data="00969483"/>
-			<value name="ColorTable07" type="dword" data="00e3f6fd"/>
-			<value name="ColorTable08" type="dword" data="00d5e8ee"/>
-			<value name="ColorTable09" type="dword" data="00d28b26"/>
-			<value name="ColorTable10" type="dword" data="00009985"/>
-			<value name="ColorTable11" type="dword" data="00c4716c"/>
-			<value name="ColorTable12" type="dword" data="002f32dc"/>
-			<value name="ColorTable13" type="dword" data="008236d3"/>
-			<value name="ColorTable14" type="dword" data="000089b5"/>
-			<value name="ColorTable15" type="dword" data="00a1a193"/>
+			<value name="ColorTable00" type="dword" data="001e1d1b"/>
+			<value name="ColorTable01" type="dword" data="00d28b26"/>
+			<value name="ColorTable02" type="dword" data="0014b482"/>
+			<value name="ColorTable03" type="dword" data="00d6c256"/>
+			<value name="ColorTable04" type="dword" data="007226f9"/>
+			<value name="ColorTable05" type="dword" data="00fe548c"/>
+			<value name="ColorTable06" type="dword" data="001f97fd"/>
+			<value name="ColorTable07" type="dword" data="00c6cccc"/>
+			<value name="ColorTable08" type="dword" data="00545350"/>
+			<value name="ColorTable09" type="dword" data="00e3ad62"/>
+			<value name="ColorTable10" type="dword" data="0046ebb7"/>
+			<value name="ColorTable11" type="dword" data="00e5d894"/>
+			<value name="ColorTable12" type="dword" data="009559ff"/>
+			<value name="ColorTable13" type="dword" data="00fea0bf"/>
+			<value name="ColorTable14" type="dword" data="006cedfe"/>
+			<value name="ColorTable15" type="dword" data="00f2f8f8"/>
 			<value name="ColorTable16" type="dword" data="00000000"/>
 			<value name="ColorTable17" type="dword" data="00800000"/>
 			<value name="ColorTable18" type="dword" data="00008000"/>
@@ -49,8 +49,8 @@
 			<value name="PopBackColorIdx" type="hex" data="10"/>
 			<value name="ExtendFonts" type="hex" data="00"/>
 			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
-			<value name="ExtendFontBoldIdx" type="hex" data="0c"/>
-			<value name="ExtendFontItalicIdx" type="hex" data="0d"/>
+			<value name="ExtendFontBoldIdx" type="hex" data="0C"/>
+			<value name="ExtendFontItalicIdx" type="hex" data="0D"/>
 			<value name="CursorTypeActive" type="dword" data="000232c2"/>
 			<value name="CursorTypeInactive" type="dword" data="00823282"/>
 			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
@@ -66,7 +66,7 @@
 			<value name="VividColors" type="hex" data="01"/>
 			<value name="FadeInactive" type="hex" data="01"/>
 			<value name="FadeInactiveLow" type="hex" data="00"/>
-			<value name="FadeInactiveHigh" type="hex" data="c8"/>
+			<value name="FadeInactiveHigh" type="hex" data="C8"/>
 			<value name="ConVisible" type="hex" data="00"/>
 			<value name="UseInjects" type="hex" data="01"/>
 			<value name="SetDefaultTerminal" type="hex" data="00"/>
@@ -96,7 +96,6 @@
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
 			<value name="JumpListAutoUpdate" type="hex" data="01"/>
 			<value name="SaveCmdHistory" type="hex" data="00"/>
-			<value name="CmdLineHistory" type="multi"/>
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="ShowHelpTooltips" type="hex" data="00"/>
 			<value name="Multi" type="hex" data="01"/>
@@ -136,13 +135,13 @@
 			<value name="CompressLongStrings" type="hex" data="01"/>
 			<value name="BackGround Image show" type="hex" data="00"/>
 			<value name="BackGround Image" type="string" data="c:\back.bmp"/>
-			<value name="bgImageDarker" type="hex" data="ff"/>
+			<value name="bgImageDarker" type="hex" data="FF"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="00"/>
 			<value name="bgPluginAllowed" type="hex" data="01"/>
-			<value name="AlphaValue" type="hex" data="f8"/>
+			<value name="AlphaValue" type="hex" data="F8"/>
 			<value name="AlphaValueSeparate" type="hex" data="01"/>
-			<value name="AlphaValueInactive" type="hex" data="ee"/>
+			<value name="AlphaValueInactive" type="hex" data="EE"/>
 			<value name="UserScreenTransparent" type="hex" data="00"/>
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
@@ -151,16 +150,16 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="1909"/>
+			<value name="ConWnd X" type="long" data="-1920"/>
 			<value name="ConWnd Y" type="long" data="0"/>
-			<value name="LastMonitor" type="string" data="0,0,3840,2090"/>
-			<value name="ConWnd Width" type="dword" data="02000032"/>
-			<value name="ConWnd Height" type="dword" data="02000064"/>
+			<value name="LastMonitor" type="string" data="-3840,0,0,2160"/>
+			<value name="ConWnd Width" type="dword" data="02000031"/>
+			<value name="ConWnd Height" type="dword" data="02000063"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="QuakeAnimation" type="ulong" data="300"/>
-			<value name="HideCaption" type="hex" data="00"/>
+			<value name="HideCaption" type="hex" data="01"/>
 			<value name="HideChildCaption" type="hex" data="01"/>
 			<value name="FocusInChildWindows" type="hex" data="01"/>
 			<value name="HideCaptionAlways" type="hex" data="00"/>
@@ -201,11 +200,11 @@
 			<value name="CTS.ForceLocale" type="dword" data="00000000"/>
 			<value name="CTS.RBtnAction" type="hex" data="00"/>
 			<value name="CTS.MBtnAction" type="hex" data="00"/>
-			<value name="CTS.ColorIndex" type="hex" data="e0"/>
+			<value name="CTS.ColorIndex" type="hex" data="E0"/>
 			<value name="ClipboardConfirmEnter" type="hex" data="01"/>
 			<value name="ClipboardConfirmLonger" type="ulong" data="200"/>
 			<value name="FarGotoEditorOpt" type="hex" data="01"/>
-			<value name="FarGotoEditorPath" type="string" data="far.exe /e%1:%2 &quot;%3&quot;"/>
+			<value name="FarGotoEditorPath" type="string" data='far.exe /e%1:%2 "%3"'/>
 			<value name="HighlightMouseRow" type="hex" data="00"/>
 			<value name="HighlightMouseCol" type="hex" data="00"/>
 			<value name="FixFarBorders" type="hex" data="01"/>
@@ -214,9 +213,9 @@
 			<value name="ExtendUCharMap" type="hex" data="01"/>
 			<value name="EnhanceGraphics" type="hex" data="01"/>
 			<value name="EnhanceButtons" type="hex" data="00"/>
-			<value name="PartBrush75" type="hex" data="c8"/>
+			<value name="PartBrush75" type="hex" data="C8"/>
 			<value name="PartBrush50" type="hex" data="96"/>
-			<value name="PartBrush25" type="hex" data="5a"/>
+			<value name="PartBrush25" type="hex" data="5A"/>
 			<value name="PartBrushBlack" type="hex" data="20"/>
 			<value name="RightClick opens context menu" type="hex" data="02"/>
 			<value name="RightClickMacro2" type="string" data=""/>
@@ -225,7 +224,7 @@
 			<value name="SendAltPrintScrn" type="hex" data="00"/>
 			<value name="SendPrintScrn" type="hex" data="00"/>
 			<value name="SendCtrlEsc" type="hex" data="00"/>
-			<value name="Min2Tray" type="hex" data="00"/>
+			<value name="Min2Tray" type="hex" data="01"/>
 			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
 			<value name="SafeFarClose" type="hex" data="01"/>
 			<value name="SafeFarCloseMacro" type="string" data=""/>
@@ -388,7 +387,7 @@
 			<value name="Update.CheckOnStartup" type="hex" data="01"/>
 			<value name="Update.CheckHourly" type="hex" data="00"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
-			<value name="Update.UseBuilds" type="hex" data="01"/>
+			<value name="Update.UseBuilds" type="hex" data="03"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
 			<value name="Update.InetToolCmd" type="string" data=""/>
 			<value name="Update.UseProxy" type="hex" data="00"/>
@@ -400,11 +399,11 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="HotKeys" modified="2017-07-27 11:12:16" build="161206">
+			<key name="HotKeys" modified="2019-02-02 00:22:51" build="190108">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
-				<value name="MinimizeRestore" type="dword" data="000011c0"/>
+				<value name="MinimizeRestore" type="dword" data="00000000"/>
 				<value name="MinimizeRestore2" type="dword" data="00000000"/>
 				<value name="GlobalRestore" type="dword" data="00000000"/>
 				<value name="CdExplorerPath" type="dword" data="00000000"/>
@@ -576,22 +575,34 @@
 				<value name="KeyMacro31.Text" type="string" data=""/>
 				<value name="KeyMacro32" type="dword" data="00000000"/>
 				<value name="KeyMacro32.Text" type="string" data=""/>
-				<value name="CTS.VkBlock" type="hex" data="a4"/>
-				<value name="CTS.VkText" type="hex" data="a0"/>
+				<value name="CTS.VkBlock" type="hex" data="A4"/>
+				<value name="CTS.VkText" type="hex" data="A0"/>
 				<value name="CTS.VkAct" type="hex" data="00"/>
 				<value name="CTS.VkPrompt" type="hex" data="00"/>
-				<value name="FarGotoEditorVk" type="hex" data="a2"/>
+				<value name="FarGotoEditorVk" type="hex" data="A2"/>
 				<value name="DndLKey" type="hex" data="00"/>
-				<value name="DndRKey" type="hex" data="a2"/>
+				<value name="DndRKey" type="hex" data="A2"/>
 				<value name="WndDragKey" type="dword" data="00121101"/>
+				<value name="CheckUpdates" type="dword" data="00105b55"/>
+				<value name="Multi.NewWndConfirm" type="dword" data="00000000"/>
+				<value name="Multi.SplitSwap" type="dword" data="00125d58"/>
+				<value name="Multi.SplitSwapU" type="dword" data="00125d26"/>
+				<value name="Multi.SplitSwapD" type="dword" data="00125d28"/>
+				<value name="Multi.SplitSwapL" type="dword" data="00125d25"/>
+				<value name="Multi.SplitSwapR" type="dword" data="00125d27"/>
+				<value name="Multi.GroupInputAll" type="dword" data="00105d47"/>
+				<value name="Multi.GroupInputKey" type="dword" data="00125d47"/>
+				<value name="CloseToRightKey" type="dword" data="00000000"/>
+				<value name="Key.BufPrUp" type="dword" data="00121121"/>
+				<value name="Key.BufPrDn" type="dword" data="00121122"/>
 			</key>
-			<key name="Tasks" modified="2017-07-27 11:12:16" build="161206">
-				<value name="Count" type="long" data="9"/>
-				<key name="Task1" modified="2017-07-27 11:12:16" build="161206">
+			<key name="Tasks" modified="2019-01-18 23:49:06" build="180528">
+				<value name="Count" type="long" data="10"/>
+				<key name="Task1" modified="2019-01-18 23:49:25" build="180528">
 					<value name="Name" type="string" data="{bash::ubuntu}"/>
-					<value name="Flags" type="dword" data="00000007"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data="/icon &quot;%USERPROFILE%\AppData\Local\lxss\bash.ico&quot;"/>
+					<value name="GuiArgs" type="string" data='/icon "%USERPROFILE%\AppData\Local\lxss\bash.ico"'/>
 					<value name="Cmd1" type="string" data="%windir%\system32\bash.exe ~ -cur_console:p"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
@@ -600,8 +611,8 @@
 					<value name="Name" type="string" data="{cmd::Cmder as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
-					<value name="Cmd1" type="string" data="*cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console:d:%USERPROFILE%"/>
+					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
+					<value name="Cmd1" type="string" data='*cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:%USERPROFILE%'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
@@ -609,8 +620,8 @@
 					<value name="Name" type="string" data="{cmd::Cmder}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
-					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console:d:%USERPROFILE%"/>
+					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
+					<value name="Cmd1" type="string" data='cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:%USERPROFILE%'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
@@ -618,8 +629,8 @@
 					<value name="Name" type="string" data="{Powershell::PowerShell as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
-					<value name="Cmd1" type="string" data="*PowerShell -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command &quot;Invoke-Expression '. ''%ConEmuDir%\..\profile.ps1'''&quot; -new_console:d:&quot;%USERPROFILE%&quot;"/>
+					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
+					<value name="Cmd1" type="string" data='*PowerShell -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command "Invoke-Expression &apos;. &apos;&apos;%ConEmuDir%\..\profile.ps1&apos;&apos;&apos;" -new_console:d:"%USERPROFILE%"'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
@@ -627,8 +638,8 @@
 					<value name="Name" type="string" data="{Powershell::Powershell}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
-					<value name="Cmd1" type="string" data="PowerShell -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command &quot;Invoke-Expression '. ''%ConEmuDir%\..\profile.ps1'''&quot; -new_console:d:&quot;%USERPROFILE%&quot;"/>
+					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
+					<value name="Cmd1" type="string" data='PowerShell -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command "Invoke-Expression &apos;. &apos;&apos;%ConEmuDir%\..\profile.ps1&apos;&apos;&apos;" -new_console:d:"%USERPROFILE%"'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
@@ -636,7 +647,7 @@
 					<value name="Name" type="string" data="{bash::mintty as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data="/icon &quot;%ConEmuDir%\..\git-for-windows\usr\share\git\git-for-windows.ico&quot;"/>
+					<value name="GuiArgs" type="string" data='/icon "%ConEmuDir%\..\git-for-windows\usr\share\git\git-for-windows.ico"'/>
 					<value name="Cmd1" type="string" data="*%ConEmuDir%\..\git-for-windows\usr\bin\mintty.exe /bin/bash -l -new_console:d:%USERPROFILE%"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
@@ -645,7 +656,7 @@
 					<value name="Name" type="string" data="{bash::mintty}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data="/icon &quot;%ConEmuDir%\..\git-for-windows\usr\share\git\git-for-windows.ico&quot;"/>
+					<value name="GuiArgs" type="string" data='/icon "%ConEmuDir%\..\git-for-windows\usr\share\git\git-for-windows.ico"'/>
 					<value name="Cmd1" type="string" data="%ConEmuDir%\..\git-for-windows\usr\bin\mintty.exe /bin/bash -l -new_console:d:%userProfile%"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
@@ -654,8 +665,8 @@
 					<value name="Name" type="string" data="{bash::bash as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
-					<value name="Cmd1" type="string" data="*cmd /c &quot;%ConEmuDir%\..\git-for-windows\bin\bash --login -i&quot; -new_console:d:%USERPROFILE%"/>
+					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
+					<value name="Cmd1" type="string" data='*cmd /c "%ConEmuDir%\..\git-for-windows\bin\bash --login -i" -new_console:d:%USERPROFILE%'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
@@ -663,10 +674,19 @@
 					<value name="Name" type="string" data="{bash::bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
-					<value name="Cmd1" type="string" data="cmd /c &quot;%ConEmuDir%\..\git-for-windows\bin\bash --login -i&quot; -new_console:d:%USERPROFILE%"/>
+					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
+					<value name="Cmd1" type="string" data='cmd /c "%ConEmuDir%\..\git-for-windows\bin\bash --login -i" -new_console:d:%USERPROFILE%'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
+				</key>
+				<key name="Task10" modified="2019-01-18 23:49:25" build="180528">
+					<value name="Name" type="string" data="{zsh}"/>
+					<value name="Flags" type="dword" data="00000007"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data="/icon %USERPROFILE%\AppData\Local\lxss\bash.ico"/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data="cmd /c C:\Windows\System32\bash.exe ~ -new_console:p:%USERPROFILE%"/>
 				</key>
 			</key>
 			<key name="Apps" modified="2017-07-27 11:12:16" build="161206">
@@ -716,6 +736,14 @@
 					<value name="ColorTable31" type="dword" data="00ffffff"/>
 				</key>
 			</key>
+			<value name="Language" type="string" data="en"/>
+			<value name="ClipboardAllLinesPosix" type="hex" data="00"/>
+			<value name="ClipboardFirstLinePosix" type="hex" data="00"/>
+			<value name="RestoreInactive" type="hex" data="00"/>
+			<value name="DynamicBufferHeight" type="hex" data="01"/>
+			<value name="StatusBar.Hide.WMode" type="hex" data="01"/>
+			<value name="AutoTrimSingleLine" type="hex" data="00"/>
 		</key>
 	</key>
 </key>
+
