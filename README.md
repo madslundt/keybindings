@@ -85,3 +85,5 @@ Move the script to the directory `~/.config/`.
 | CTRL + Shift + c                        | Copy text                                                      |
 | CTRL + Shift + v                        | Paste text                                                     |
 | ALT + { i, k }                          | { PageUp, PageDown }                                           |
+
+Download font [here](https://github.com/adobe-fonts/source-code-pro)
