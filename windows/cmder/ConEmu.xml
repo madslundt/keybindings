@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-02-02 00:27:04" build="190108">
+		<key name=".Vanilla" modified="2019-02-02 01:08:44" build="180626">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -150,11 +150,11 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="-1920"/>
-			<value name="ConWnd Y" type="long" data="0"/>
-			<value name="LastMonitor" type="string" data="-3840,0,0,2160"/>
-			<value name="ConWnd Width" type="dword" data="02000031"/>
-			<value name="ConWnd Height" type="dword" data="02000063"/>
+			<value name="ConWnd X" type="long" data="2"/>
+			<value name="ConWnd Y" type="long" data="29"/>
+			<value name="LastMonitor" type="string" data="0,0,3000,2000"/>
+			<value name="ConWnd Width" type="dword" data="02000030"/>
+			<value name="ConWnd Height" type="dword" data="02000060"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
@@ -387,7 +387,7 @@
 			<value name="Update.CheckOnStartup" type="hex" data="01"/>
 			<value name="Update.CheckHourly" type="hex" data="00"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
-			<value name="Update.UseBuilds" type="hex" data="03"/>
+			<value name="Update.UseBuilds" type="hex" data="01"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
 			<value name="Update.InetToolCmd" type="string" data=""/>
 			<value name="Update.UseProxy" type="hex" data="00"/>
@@ -399,7 +399,7 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="HotKeys" modified="2019-02-02 00:22:51" build="190108">
+			<key name="HotKeys" modified="2019-02-02 01:08:44" build="180626">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -525,14 +525,6 @@
 				<value name="KeyMacro06.Text" type="string" data="Task(4)"/>
 				<value name="KeyMacro07" type="dword" data="00a01235"/>
 				<value name="KeyMacro07.Text" type="string" data="Task(5)"/>
-				<value name="KeyMacro08" type="dword" data="00a01236"/>
-				<value name="KeyMacro08.Text" type="string" data="Task(6)"/>
-				<value name="KeyMacro09" type="dword" data="00a01237"/>
-				<value name="KeyMacro09.Text" type="string" data="Task(7)"/>
-				<value name="KeyMacro10" type="dword" data="00a01238"/>
-				<value name="KeyMacro10.Text" type="string" data="Task(8)"/>
-				<value name="KeyMacro11" type="dword" data="00a01239"/>
-				<value name="KeyMacro11.Text" type="string" data="Task(9)"/>
 				<value name="KeyMacro12" type="dword" data="00000000"/>
 				<value name="KeyMacro12.Text" type="string" data=""/>
 				<value name="KeyMacro13" type="dword" data="00000000"/>
@@ -595,9 +587,17 @@
 				<value name="CloseToRightKey" type="dword" data="00000000"/>
 				<value name="Key.BufPrUp" type="dword" data="00121121"/>
 				<value name="Key.BufPrDn" type="dword" data="00121122"/>
+				<value name="KeyMacro08" type="dword" data="00000000"/>
+				<value name="KeyMacro08.Text" type="string" data=""/>
+				<value name="KeyMacro09" type="dword" data="00000000"/>
+				<value name="KeyMacro09.Text" type="string" data=""/>
+				<value name="KeyMacro10" type="dword" data="00000000"/>
+				<value name="KeyMacro10.Text" type="string" data=""/>
+				<value name="KeyMacro11" type="dword" data="00000000"/>
+				<value name="KeyMacro11.Text" type="string" data=""/>
 			</key>
-			<key name="Tasks" modified="2019-01-18 23:49:06" build="180528">
-				<value name="Count" type="long" data="10"/>
+			<key name="Tasks" modified="2019-02-02 01:08:44" build="180626">
+				<value name="Count" type="long" data="5"/>
 				<key name="Task1" modified="2019-01-18 23:49:25" build="180528">
 					<value name="Name" type="string" data="{bash::ubuntu}"/>
 					<value name="Flags" type="dword" data="00000004"/>
@@ -642,51 +642,6 @@
 					<value name="Cmd1" type="string" data='PowerShell -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command "Invoke-Expression &apos;. &apos;&apos;%ConEmuDir%\..\profile.ps1&apos;&apos;&apos;" -new_console:d:"%USERPROFILE%"'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-				</key>
-				<key name="Task6" modified="2017-07-27 11:12:16" build="161206">
-					<value name="Name" type="string" data="{bash::mintty as Admin}"/>
-					<value name="Flags" type="dword" data="00000000"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data='/icon "%ConEmuDir%\..\git-for-windows\usr\share\git\git-for-windows.ico"'/>
-					<value name="Cmd1" type="string" data="*%ConEmuDir%\..\git-for-windows\usr\bin\mintty.exe /bin/bash -l -new_console:d:%USERPROFILE%"/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-				</key>
-				<key name="Task7" modified="2017-07-27 11:12:16" build="161206">
-					<value name="Name" type="string" data="{bash::mintty}"/>
-					<value name="Flags" type="dword" data="00000000"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data='/icon "%ConEmuDir%\..\git-for-windows\usr\share\git\git-for-windows.ico"'/>
-					<value name="Cmd1" type="string" data="%ConEmuDir%\..\git-for-windows\usr\bin\mintty.exe /bin/bash -l -new_console:d:%userProfile%"/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-				</key>
-				<key name="Task8" modified="2017-07-27 11:12:16" build="161206">
-					<value name="Name" type="string" data="{bash::bash as Admin}"/>
-					<value name="Flags" type="dword" data="00000000"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
-					<value name="Cmd1" type="string" data='*cmd /c "%ConEmuDir%\..\git-for-windows\bin\bash --login -i" -new_console:d:%USERPROFILE%'/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-				</key>
-				<key name="Task9" modified="2017-07-27 11:12:16" build="161206">
-					<value name="Name" type="string" data="{bash::bash}"/>
-					<value name="Flags" type="dword" data="00000000"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
-					<value name="Cmd1" type="string" data='cmd /c "%ConEmuDir%\..\git-for-windows\bin\bash --login -i" -new_console:d:%USERPROFILE%'/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-				</key>
-				<key name="Task10" modified="2019-01-18 23:49:25" build="180528">
-					<value name="Name" type="string" data="{zsh}"/>
-					<value name="Flags" type="dword" data="00000007"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data="/icon %USERPROFILE%\AppData\Local\lxss\bash.ico"/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data="cmd /c C:\Windows\System32\bash.exe ~ -new_console:p:%USERPROFILE%"/>
 				</key>
 			</key>
 			<key name="Apps" modified="2017-07-27 11:12:16" build="161206">
