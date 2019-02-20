@@ -74,4 +74,4 @@ Move the script to the directory `~/.config/tilda/`.
 | CTRL + Shift + v                        | Paste text                                                     |
 | ALT + { i, k }                          | { PageUp, PageDown }                                           |
 
-Download font [here](https://github.com/adobe-fonts/source-code-pro)
+Download font [here](https://github.com/tonsky/FiraCode)
