@@ -42,18 +42,6 @@ This adds the terminal to the op of the screen by pressing `CapsLock + T`.
 
 Move the script to the directory `~/.config/tilda/`.
 
-## Libinput
-Libinput is used for touchpad gestures. The scripts can be found [here](linux/libinput).
-
-| Gesture                    | Output                      |
-| -------------------------- | --------------------------- |
-| 3 finger swipe left        | alt+left (browser back)     |
-| 3 finger swipe right       | alt+right (browser forward) |I
-
-Move the script to the directory `~/.config/`.
-
-*This should work next time you log out of your computer.*
-
 # Windows
 
 ## AutoHotKey
@@ -85,3 +73,5 @@ Move the script to the directory `~/.config/`.
 | CTRL + Shift + c                        | Copy text                                                      |
 | CTRL + Shift + v                        | Paste text                                                     |
 | ALT + { i, k }                          | { PageUp, PageDown }                                           |
+
+Download font [here](https://github.com/tonsky/FiraCode)
