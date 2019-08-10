@@ -2,6 +2,9 @@
 
 SetCapsLockState, AlwaysOff
 
+CapsLock & Lshift::
+    SetCapsLockState, On
+
 CapsLock & i::
 if GetKeyState("Shift", "D")
     if GetKeyState("Alt", "D")
