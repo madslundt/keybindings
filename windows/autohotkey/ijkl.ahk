@@ -2,7 +2,7 @@
 
 SetCapsLockState, AlwaysOff
 
-CapsLock & Lshift::
+CapsLock & Lshift & Space::
     SetCapsLockState, On
 
 CapsLock & i::
