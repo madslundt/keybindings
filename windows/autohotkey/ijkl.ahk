@@ -2,8 +2,10 @@
 
 SetCapsLockState, AlwaysOff
 
-CapsLock & Lshift & Space::
-    SetCapsLockState, On
+CapsLock & Space::
+if GetKeyState("Shift", "T")
+    SetCapsLockState, On    
+return
 
 CapsLock & i::
 if GetKeyState("Shift", "D")
