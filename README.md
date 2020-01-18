@@ -75,3 +75,31 @@ Move the script to the directory `~/.config/tilda/`.
 | ALT + { i, k }                          | { PageUp, PageDown }                                           |
 
 Download font [FiraCode](https://github.com/tonsky/FiraCode) and [FlottFlott](https://www.dafont.com/flottflott.font)
+
+# macOS
+
+## Karabiner-Elements
+[Karabiner-Elements](https://pqrs.org/osx/karabiner/index.html) needs to be installed for macOS. The `karabiner.json` file with the profile can be found [here](macOS/Karabiner).
+
+| Shortcut                                                  | Output                                                    |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| CAPSLOCK + { i, j, k, l }                                 | { Up, Left, Down, Right }                                 |
+| CAPSLOCK + ⌘ COMMAND + { i, j, k, l, Backspace, Delete }  | ⌥ OPTION + { Up, Left, Down, Right, Backspace, Delete }   |
+| CAPSLOCK + ⌥ OPTION  + { i, j, k, l, Backspace, Delete }  | ⌘ COMMAND + { Up, Left, Down, Right, Backspace, Delete }  |
+| CAPSLOCK + { u, o }                                       | { Home, End } (*)                                         |
+| SHIFT + Backspace                                         | Delete                                                    |
+
+* Home and End aren't very useful on macOS. Similar functionality can be achieved with OPTION + Up (start of line), and OPTION + Down (end of line).
+Note that those would be COMMAND + Up and COMMAND + Down with the provided bindings.
+
+### Adding to Karabiner
+> :warning: **If you already use Karabiner**: follow the advanced steps to avoid loss of current settings.
+
+Copy [karabiner.json](macOS/Karabiner/karabiner.json) to your Karabiner config directory.
+This will result in Karabiner reading two profiles; 'Default macOS' and 'CAPSLOCK + IJKL'.
+Select 'CAPSLOCK + IJKL' and you are all set!
+
+#### Advanced: copying only the modifications
+If you already have your own profile and you only want to add the complex modifications, follow these steps.
+
+In [karabiner.json](macOS/Karabiner/karabiner.json) locate the profile 'CAPSLOCK + IJKL' and copy all the desired modifications from the 'rules' section (lines 153 to 844).
