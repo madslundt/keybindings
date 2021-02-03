@@ -103,3 +103,9 @@ Select 'CAPSLOCK + IJKL' and you are all set!
 If you already have your own profile and you only want to add the complex modifications, follow these steps.
 
 In [karabiner.json](macOS/Karabiner/karabiner.json) locate the profile 'CAPSLOCK + IJKL' and copy all the desired modifications from the 'rules' section (lines 153 to 844).
+
+# Git
+Helper tools for git
+
+## Git alias
+[gitalias.txt](git/gitalias.txt) contain git aliases to be added to your git config.
