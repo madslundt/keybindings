@@ -1,0 +1,7 @@
+#############################
+# Aliases using git config #
+#############################
+
+# Remove local branches (cb) with a regex (eg. feature/*).
+# Uses soft delete to remove local branches
+git config --global alias.cb "! git branch | grep "$1" | xargs git branch -d"
