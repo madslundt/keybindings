@@ -7,5 +7,6 @@
 git config --global alias.cb "! git branch | grep "$1" | xargs git branch -d"
 
 
-# Prune local branches that does not exist in origin (pb)
+# Prune all local branches that does not exist in origin (pb)
+# Uses soft delete to remove local branches
 git config --global alias.pb "! git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d"
