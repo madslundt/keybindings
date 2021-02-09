@@ -1,5 +1,5 @@
 #############################
-# Aliases using git config #
+# Aliases using git config  #
 #############################
 
 # Remove local branches (cb) with a regex (eg. git cb feature/*).
