@@ -2,6 +2,11 @@
 
 SetCapsLockState, AlwaysOff
 
+CapsLock & Space::
+if GetKeyState("Shift", "T")
+    SetCapsLockState, On    
+return
+
 CapsLock & i::
 if GetKeyState("Shift", "D")
     if GetKeyState("Alt", "D")
