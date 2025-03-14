@@ -1,125 +1,84 @@
+#SingleInstance Force
+#Requires AutoHotkey v2.0
 #NoTrayIcon
 
-SetCapsLockState, AlwaysOff
+; Turn off CapsLock functionality
+SetCapsLockState "AlwaysOff"
 
-CapsLock & i::
-if GetKeyState("Shift", "D")
-    if GetKeyState("Alt", "D")
-        Send +^{Up}
-    else if GetKeyState("Ctrl", "D")
-        Send +!{Up}
-    else
-        Send +{Up}
-else if GetKeyState("Ctrl", "D")
-    if (GetKeyState("Alt", "D"))
-        Send !^{Up}
-    else
-        Send !{Up}
-else if GetKeyState("Alt", "D")
-    Send ^{Up}
-else
-    Send {Up}
-return
+; CAPSLOCK + Arrow Keys
+#HotIf GetKeyState("CapsLock", "P")
+j::Left
+l::Right
+i::Up
+k::Down
 
-CapsLock & k::
-if GetKeyState("Shift", "D")
-    if GetKeyState("Alt", "D")
-        Send +^{Down}
-    else if GetKeyState("Ctrl", "D")
-        Send +!{Down}
-    else
-        Send +{Down}
-else if GetKeyState("Ctrl", "D")
-    if (GetKeyState("Alt", "D"))
-        Send !^{Down}
-    else
-        Send !{Down}
-else if GetKeyState("Alt", "D")
-    Send ^{Down}
-else
-    Send {Down}
-return
+; CAPSLOCK + ALT + Arrow Keys (Sends Ctrl + Arrow)
+!j::Send "^{Left}"
+!l::Send "^{Right}"
+!i::Send "^{Up}"
+!k::Send "^{Down}"
 
-CapsLock & j::
-if GetKeyState("Shift", "D")
-    if GetKeyState("Alt", "D")
-        Send +^{Left}
-    else if GetKeyState("Ctrl", "D")
-        Send +!{Left}
-    else
-        Send +{Left}
-else if GetKeyState("Ctrl", "D")
-    if (GetKeyState("Alt", "D"))
-        Send !^{Left}
-    else
-        Send !{Left}
-else if GetKeyState("Alt", "D")
-    Send ^{Left}
-else
-    Send {Left}
-return
+; CAPSLOCK + CTRL + Arrow Keys (Sends Alt + Arrow)
+^j::Send "!{Left}"
+^l::Send "!{Right}"
+^i::Send "!{Up}"
+^k::Send "!{Down}"
 
-CapsLock & l::
-if GetKeyState("Shift", "D")
-    if GetKeyState("Alt", "D")
-        Send +^{Right}
-    else if GetKeyState("Ctrl", "D")
-        Send +!{Right}
-    else
-        Send +{Right}
-else if GetKeyState("Ctrl", "D")
-    if (GetKeyState("Alt", "D"))
-        Send !^{Right}
-    else
-        Send !{Right}
-else if GetKeyState("Alt", "D")
-    Send ^{Right}
-else
-    Send {Right}
-return
+; CAPSLOCK + ALT + SHIFT + Arrow Keys (Sends Ctrl + Shift + Arrow)
+!+j::Send "+^{Left}"
+!+l::Send "+^{Right}"
+!+i::Send "+^{Up}"
+!+k::Send "+^{Down}"
 
-CapsLock & u::
-if GetKeyState("Shift", "D")
-    if GetKeyState("Alt", "D")
-        Send +^{Home}
-    else if GetKeyState("Ctrl", "D")
-        Send +!{Home}
-    else
-        Send +{Home}
-else if GetKeyState("Ctrl", "D")
-    if (GetKeyState("Alt", "D"))
-        Send !^{Home}
-    else
-        Send !{Home}
-else if GetKeyState("Alt", "D")
-    Send ^{Home}
-else
-    Send {Home}
-return
+; CAPSLOCK + CTRL + SHIFT + Arrow Keys (Sends Alt + Shift + Arrow)
+^+j::Send "+!{Left}"
+^+l::Send "+!{Right}"
+^+i::Send "+!{Up}"
+^+k::Send "+!{Down}"
 
-CapsLock & o::
-if GetKeyState("Shift", "D")
-    if GetKeyState("Alt", "D")
-        Send +^{End}
-    else if GetKeyState("Ctrl", "D")
-        Send +!{End}
-    else
-        Send +{End}
-else if GetKeyState("Ctrl", "D")
-    if (GetKeyState("Alt", "D"))
-        Send !^{End}
-    else
-        Send !{End}
-else if GetKeyState("Alt", "D")
-    Send ^{End}
-else
-    Send {End}
-return
+; CAPSLOCK + CTRL + ALT + Arrow Keys
+^!j::Send "^!{Left}"
+^!l::Send "^!{Right}"
+^!i::Send "^!{Up}"
+^!k::Send "^!{Down}"
 
-CapsLock & y:: send, {PgUp}
-CapsLock & h:: send, {PgDn}
+; CAPSLOCK + CTRL + ALT + SHIFT + Arrow Keys
+^!+j::Send "+^!{Left}"
+^!+l::Send "+^!{Right}"
+^!+i::Send "+^!{Up}"
+^!+k::Send "+^!{Down}"
 
-!i:: send, {PgUp}
-!k:: send, {PgDn}
+; CAPSLOCK + ALT + Navigation
+!u::Send "^{Home}"
+!o::Send "^{End}"
 
-return
+; CAPSLOCK + ALT + SHIFT + Navigation
+!+u::Send "+^{Home}"
+!+o::Send "+^{End}"
+
+; CAPSLOCK + Navigation Keys
+u::Home
+o::End
+
+; CAPSLOCK + Extra Navigation
+y::PgUp
+h::PgDn
+#HotIf
+
+; ALT + Navigation
+!i::PgUp
+!k::PgDn
+
+; Basic Shift combinations
+#HotIf GetKeyState("CapsLock", "P") and GetKeyState("Shift", "P")
+j::+Left
+l::+Right
+i::+Up
+k::+Down
+
+u::+Home
+o::+End
+
+y::+PgUp
+h::+PgDn
+#HotIf

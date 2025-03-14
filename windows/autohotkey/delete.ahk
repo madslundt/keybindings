@@ -1,3 +1,5 @@
+#SingleInstance Force
+#Requires AutoHotkey v2.0
 #NoTrayIcon
- 
-^Backspace:: send, {delete}
+
+^Backspace::Send "{Delete}"
